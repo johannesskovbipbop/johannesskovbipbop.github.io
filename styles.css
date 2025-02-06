@@ -1,3 +1,4 @@
+/* Generelle stilarter */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,11 @@ body {
     line-height: 1.6;
 }
 
+/* Header & Navigation */
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     background: #1f1f1f;
 }
@@ -37,12 +40,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hero sektion */
 .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
 }
@@ -78,6 +83,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Sektioner */
+.content, .testimonials, .packages, .team, .contact {
+    padding: 40px;
+    text-align: center;
+}
+
 .packages .package {
     background: #333;
     padding: 20px;
@@ -85,6 +96,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
